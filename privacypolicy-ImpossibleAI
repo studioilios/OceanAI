@@ -1,0 +1,52 @@
+
+# Privacy Policy for Impossible AI
+
+**Effective Date:** April 11, 2026
+
+This Privacy Policy explains how your information is collected, used, and disclosed by **HumaNovaMinds** ("we," "our," or "us") when you use the **Impossible AI** mobile application. 
+
+### 1. Information We Collect
+To provide, secure, and improve our fitness tracking and community services, we collect the following information:
+
+* **Authentication Data:** We collect your **Phone Number** to securely create your account, verify your identity, and manage login sessions.
+* **Location Data:** The app requests access to your device's location (`android.permission.ACCESS_FINE_LOCATION` / `ACCESS_COARSE_LOCATION`). We collect precise location data strictly to track your outdoor running routes, measure distance, and calculate pace during active workout sessions.
+* **Device Permissions (Camera):** The app requests access to your device's camera (`android.permission.CAMERA`). This is solely used to allow you to capture and upload photos (such as profile pictures or workout progress) within the app. 
+* **Fitness, Activity & Rank Data:** We collect data related to your workouts, daily activity metrics, and overall fitness progress. This data is used to calculate your standing in our global and community **Rank System**.
+* **Payment Information:** For premium feature upgrades, payment processing is handled securely by our third-party provider, **Razorpay**. We do not directly collect or store your credit card details or payment instruments on our servers.
+
+### 2. How We Use Your Information & Community Features
+The data we collect is used to operate Impossible AI, specifically to:
+* Track and analyze your running and fitness metrics.
+* **Community & Gym Integration:** Facilitate connections with verified Gym Owners. Your rank and public profile data may be visible within the app's community features, allowing you to engage with posts and updates published by gym owners.
+* Process transactions and unlock premium app features.
+* Calculate and update your position within the app's Rank System.
+
+### 3. Data Storage, Caching, & Infrastructure
+We utilize a modern architecture to ensure your data is fast, secure, and reliable:
+* **Local Caching:** We store certain account details and workout history locally on your device's cache. This ensures the app loads quickly and provides a seamless experience even when you have poor network connectivity.
+* **Cloud Infrastructure:** Your data is securely synced and backed up to our custom cloud architecture, which utilizes a **Golang** backend integrated with **Supabase** for robust database management and secure user authentication.
+
+### 4. Third-Party Services
+We partner with trusted third-party services to deliver specific functionalities. These services process data according to their respective privacy policies:
+* **Supabase:** Used for secure cloud database management and syncing.
+* **Razorpay:** Used for secure, compliant payment processing.
+
+### 5. Data Security
+We implement industry-standard encryption and security measures across our Golang/Supabase infrastructure to protect your personal information, phone number, and fitness data against unauthorized access, alteration, or destruction.
+
+### 6. Data Retention and Deletion
+We retain your data only for as long as your account is active or as needed to provide you with the app's services. 
+* **Account Deletion:** You have the right to request the deletion of your account and all associated fitness, location, and rank data at any time. You can initiate account deletion directly within the app settings or by contacting us. Once initiated, your data will be permanently removed from our active Supabase databases and backend systems.
+
+### 7. Changes to This Privacy Policy
+We may update this Privacy Policy periodically to reflect changes in our app features or relevant laws. We will notify you of any significant changes by updating the "Effective Date" at the top of this policy.
+
+### 8. Contact Us
+If you have any questions, concerns, or requests regarding this Privacy Policy or how your data is handled, please contact us at:
+
+* **Developer:** G V Amaresh, HumaNovaMinds
+* **Primary Email:** nextlife@studioilios.org
+* **CC:** gvamaresh@studioilios.org
+
+***
+
