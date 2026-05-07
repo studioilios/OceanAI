@@ -2,15 +2,19 @@
 
 ## Privacy Policy – Ocean AI
 
-**Last updated:** 2nd April, 2026
+**Last updated:** May 7, 2026
 
-Ocean AI ("we," "our," or "us") respects your privacy and is committed to protecting your personal and highly sensitive health data. This Privacy Policy explains how we collect, use, store, and protect your information when you use the Ocean AI application. We strictly adhere to Google Play’s Developer Program Policies regarding Personal and Sensitive User Data.
+Ocean AI ("we," "our," or "us") respects your privacy and is committed to protecting your personal and highly sensitive health data. This Privacy Policy explains how we collect, use, store, and protect your information when you use the Ocean AI application. We strictly adhere to Google Play’s Developer Program Policies regarding Personal and Sensitive User Data, including Health Connect.
 
 ### 1. Information We Collect and How We Use It
 
-To provide Ocean AI’s core functionalities, we request access to the following sensitive data types. We only collect this data with your explicit consent and use it exclusively for the features described below:
+To provide Ocean AI’s core functionalities, we request access to the following sensitive data types. We only collect this data with your explicit, revocable consent and use it exclusively for the features described below:
 
-* **Health and Medical Data:** We collect health-related data uploaded by you, including medical records, test reports, and prescriptions. We use this data to provide AI-generated summaries of your health reports and to share them securely with your healthcare provider during scheduled in-app appointments.
+* **Health Connect Data (Fitness and Vitals):** With your permission, we access data from Google Health Connect, specifically **Heart Rate**, **Sleep**, and **Steps**. 
+    * **Purpose:** We use this data to provide continuous, personalized AI-generated health insights, track your physical well-being, and keep your secure health vault comprehensive.
+    * **Background Access:** We request background access to this data (`READ_HEALTH_DATA_IN_BACKGROUND`) so that your health dashboard and AI insights remain continuously up-to-date and can trigger relevant health alerts even when the app is closed.
+    * **Health Connect Limited Use Disclosure:** The use of information received from Health Connect will adhere to the Google Play Health Connect Permissions Policy, including the **Limited Use** requirements. We strictly process this data only to provide or improve the user-facing health features within Ocean AI.
+* **Health and Medical Records:** We collect health-related data uploaded by you, including medical records, test reports, and prescriptions. We use this data to provide AI-generated summaries of your health reports and to share them securely with your healthcare provider during scheduled in-app appointments.
 * **Location Data:** We request access to your device's location data. This is required exclusively for the "Nearest Blood Donor" feature, allowing us to accurately match you with nearby donors or recipients. We do not use your location data for advertising or unapproved background tracking.
 * **Microphone and Audio Data:** We request access to your device’s microphone. This is required to enable the "OceanAI Wake Up" voice assistant, allowing you to chat with the AI. It is also used to facilitate and record audio consultations during doctor-patient appointments so you and your doctor can maintain an accurate clinical record.
 * **Personal Information:** We collect your name, email address, and age to create your account, verify you meet our age requirements, and secure your health vault.
@@ -24,17 +28,17 @@ Protecting your medical data is our highest priority. Ocean AI utilizes **Supaba
 
 ### 3. AI and Health Data Processing Disclaimer
 
-Ocean AI utilizes artificial intelligence to analyze user-uploaded medical documents to generate summaries and organize your health history. 
+Ocean AI utilizes artificial intelligence to analyze user-uploaded medical documents and wearable data to generate summaries and organize your health history. 
 
-* **Not Medical Advice:** The AI features are designed strictly for informational and organizational purposes. Ocean AI does not autonomously provide medical diagnoses, treatments, or clinical recommendations. Always consult a qualified healthcare provider for medical decisions.
+* **Not Medical Advice:** The AI features are designed strictly for informational and organizational purposes. Ocean AI is not a certified medical device and does not autonomously provide medical diagnoses, treatments, or clinical recommendations. Always consult a qualified healthcare provider for medical decisions.
 
 ### 4. Data Sharing and Third Parties
 
-**Ocean AI does not sell, rent, or trade your personal or sensitive user data.** Data may be shared only under the following strict conditions:
-* To operate essential app functionality (such as routing a call to a doctor).
-* When required to comply with a valid legal or governmental request.
+**Ocean AI does not sell, rent, or trade your personal or sensitive user data.** We do not use your Health Connect data, medical records, location, or audio recordings for advertising, marketing, profiling, or data broker purposes.
 
-We do not use your health data, location, or audio recordings for advertising, marketing, profiling, or data broker purposes.
+Data may be shared only under the following strict conditions:
+* To operate essential app functionality (such as routing a call to a doctor or sharing records you explicitly authorize).
+* When required to comply with a valid legal or governmental request.
 
 ### 5. Age Requirements and Children’s Privacy
 
@@ -42,16 +46,19 @@ Ocean AI is strictly intended for users who are **17 years of age and older**. W
 
 ### 6. User Rights and Account Deletion
 
-You have full control over your data. You may request access to, correction of, or complete deletion of your personal and health data at any time. 
+You have full control over your data. You may request access to, correction of, or complete deletion of your personal and health data at any time. You may also disconnect Health Connect from Ocean AI at any time via your device settings.
 
 * **Account Deletion:** You can initiate the deletion of your account and all associated health records directly within the Ocean AI app settings, or by contacting us. Upon account deletion, all associated health data, audio records, and personal information are permanently erased from our Supabase servers, except where retention is legally required.
 
 ### 7. Changes to This Policy
 
-We may update this Privacy Policy as our platform evolves. Any changes will be reflected on this page with an updated revision date.
+We may update this Privacy Policy as our platform evolves. Any changes will be reflected on this page with an updated revision date. If significant changes are made regarding how we handle sensitive health data, we will notify you within the app.
 
 ### 8. Contact Us
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us at:
 
 **Email:** [nextlife@studioilios.org](mailto:nextlife@studioilios.org)
+
+***
+
